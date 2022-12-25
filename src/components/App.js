@@ -40,13 +40,15 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        <ol>
-          <li key="location1">Goa</li>
-          <li key="location2">Amsterdam</li>
-          <li key="location3">New York</li>
-          <li key="location4">Darjeeling</li>
-          <li key="location5">Tokyo</li>
-        </ol>
+        {
+          <ol>
+            <li key="location1">Goa</li>
+            <li key="location2">Amsterdam</li>
+            <li key="location3">New York</li>
+            <li key="location4">Darjeeling</li>
+            <li key="location5">Tokyo</li>
+          </ol>
+        }
       </div>
     );
   }
