@@ -43,11 +43,21 @@ class App extends Component {
         {
           <ol>
             <li key="location1">Goa</li>
-            <li key="location2">Amritsar</li>
-            <li key="location3">Mussoorie</li>
-            <li key="location4">Darjeeling</li>
-            <li key="location5">Mount Abu</li>
-            <li key="location6">Lonavala</li>
+            <li key="location2">Darjeeling</li>
+            <li key="location3">Lonavala</li>
+            <li key="location4">Munnar</li>
+            <li key="location5">Leh Ladakh</li>
+            <li key="location6">Goa</li>
+            <li key="location7">Agra</li>
+            <li key="location8">Dalhousie</li>
+            <li key="location9">Coorg</li>
+            <li key="location10">Varanasai</li>
+            <li key="location11">Jaipur</li>
+            <li key="location12">Kahna National Park</li>
+            <li key="location13">Amritsar</li>
+            <li key="location14">Mussoorie</li>
+            <li key="location15">Mount Abu</li>
+            <li key="location16">Tirupati</li>
           </ol>
         }
       </div>
