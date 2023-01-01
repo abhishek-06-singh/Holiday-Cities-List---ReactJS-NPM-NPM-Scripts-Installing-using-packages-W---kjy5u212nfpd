@@ -40,19 +40,15 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        {
-          <ol>
-            <li key="location1">Goa(India)</li>
-            <li key="location2">Amsterdam(Netherlands)</li>
-            <li key="location3">New York(USA)</li>
-            <li key="location4"> Darjeeling(India),</li>
-            <li key="location5">Tokyo(Japan)</li>
-            <li key="location6"> Lonavala(India)</li>
-          </ol>
-        }
+        <ol>
+          {this.cityList
+            .filter((city) => city.country == "India")
+            .map((city, index) => {
+              const key = `location${index + 1}`;
+              return <li key={key}>{city.name}</li>;
+            })}
+        </ol>
       </div>
     );
   }
 }
-
-export default App;
